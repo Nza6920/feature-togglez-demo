@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: feature-togglez-demo
+
+togglz:
+  features:
+    FOO:
+      enabled: true
+      strategy: custom
+      param:
+        start: 2019-01-01
+        end: 2020-01-02
